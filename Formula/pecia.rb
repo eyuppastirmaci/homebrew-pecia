@@ -9,20 +9,20 @@ class Pecia < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.0/pecia-0.1.0-osx-aarch64.tar.gz"
-      sha256 "64c87b779503f3c0bf863c9afcb2678861c697fbe8f0fe6db0f7f18b73ae05e0"
+      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.1/pecia-0.1.1-osx-aarch64.tar.gz"
+      sha256 "457fd64571800c77b227a7d2059f05f848b00868a09a8b92934ef3f6dabd3ca6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.0/pecia-0.1.0-linux-x64.tar.gz"
-      sha256 "1e26ac1a7058b024725b0ba3c4062b1c861533df4293003322e59d83dda92ecc"
+      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.1/pecia-0.1.1-linux-x64.tar.gz"
+      sha256 "338c098e8afbaf5abb063f379f4a55ad678f134a571580058a447da71ffe7b8a"
     end
 
     on_arm do
-      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.0/pecia-0.1.0-linux-aarch64.tar.gz"
-      sha256 "79a371deed2b608b4872718e20403f733415cdf6af4a9c992da0b1e0209b49da"
+      url "https://github.com/eyuppastirmaci/pecia/releases/download/v0.1.1/pecia-0.1.1-linux-aarch64.tar.gz"
+      sha256 "97f4f33c164c068459487f8a20052f8ecc21ca5e6f2824317ae93f126235349a"
     end
   end
 
